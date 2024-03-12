@@ -1,0 +1,104 @@
+h1,
+h2,
+h3,
+body,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    font-family: "Quicksand", sans-serif;
+    --second-family: "Inter", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1119px;
+}
+
+/* Header */
+.header {
+    background-color: #0C70AC;
+    border-bottom: 1px solid #fff;
+}
+
+.header-container {
+    padding: 60px 0;
+}
+
+.nav-list {
+    display: flex;
+    gap: 95px;
+}
+
+.header-link {
+    font-weight: 700;
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.active {
+    color: #f4de1f;
+}
+
+/* Section-hero */
+.hero {
+    background-color: #0C70AC;
+    border-bottom: 1px solid #fff;
+}
+
+.hero-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 64px;
+    text-transform: capitalize;
+    color: #fff;
+    padding-bottom: 34px;
+}
+
+.hero-text {
+    font-weight: 700;
+    font-size: 32px;
+    color: #fff;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    opacity: 0.5;
+}
+
+.hero-img {
+    width: 510px;
+    height: 600px;
+}
+
+/* Destinations */
+.destinations {
+    padding: 80px 0;
+}
+
+.destinations-title {
+    font-weight: 600;
+    font-size: 40px;
+    color: #000;
+    text-align: center;
+}
+
+.destinations-list{
+    display: flex;
+    gap: 30px;
+}
