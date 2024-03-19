@@ -9,6 +9,9 @@ p {
 
 .body {
     font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
     --second-family: "Inter", sans-serif;
 }
 
@@ -24,7 +27,7 @@ ul {
 
 .container {
     margin: 0 auto;
-    width: 1119px;
+    width: 1620px;
 }
 
 /* Header */
@@ -40,6 +43,7 @@ ul {
 .nav-list {
     display: flex;
     gap: 95px;
+    justify-content: center;
 }
 
 .header-link {
@@ -61,7 +65,8 @@ ul {
 
 .hero-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
+    gap: 433px;
     align-items: center;
 }
 
@@ -96,9 +101,142 @@ ul {
     font-size: 40px;
     color: #000;
     text-align: center;
+    padding-bottom: 50px;
 }
 
-.destinations-list{
+.destinations-list {
     display: flex;
     gap: 30px;
+}
+
+
+.destinations-item {
+    text-align: center;
+}
+
+.destinations-caption {
+    font-weight: 500;
+    font-size: 36px;
+    color: #000;
+    padding: 30px 0 15px 0;
+}
+
+.destinations-text {
+    font-weight: 500;
+    font-size: 24px;
+    color: #000;
+    padding-bottom: 30px;
+}
+
+.destinations-link {
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: #7c7c7c;
+    text-transform: uppercase;
+}
+
+/* Section Blog */
+.blog {
+    padding: 80px 150px;
+    background: #e6e6e6;
+}
+
+.blog-title {
+    font-weight: 600;
+    font-size: 40px;
+    color: #000;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.blog-list {
+    display: flex;
+}
+
+.blog-item {
+    background: #fff;
+    border-radius: 15px;
+}
+
+.blog-text-date {
+    padding: 25px 0 25px 40px;
+    font-weight: 600;
+    font-size: 16px;
+    color: #7c7c7c;
+}
+
+.blog-caption {
+    padding: 0 40px 20px;
+    font-weight: 600;
+    font-size: 24px;
+    color: #000;
+}
+
+.blog-text {
+    padding: 0 40px 50px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #7c7c7c;
+}
+
+/* Footer */
+.footer {
+    padding-top: 80px;
+    background: #001c2d;
+}
+
+.footer1 {
+    display: flex;
+    gap: 269px;
+}
+
+.footer-title {
+    font-weight: 600;
+    font-size: 40px;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.footer-list-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 500px;
+}
+
+.footer-list-div {
+    display: flex;
+    gap: 239px;
+}
+
+.footer-list {
+    width: 173px;
+}
+
+.footer-item {
+    padding-bottom: 50px;
+}
+
+.footer-link {
+    font-weight: 600;
+    font-size: 24px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+/* Footer Policy */
+.footer-privacy-policy {
+    border-top: 1px solid #fff;
+    padding: 63px 0;
+}
+
+.footer-text {
+    opacity: 0.5;
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
 }
