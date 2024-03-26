@@ -1,7 +1,6 @@
 h1,
 h2,
 h3,
-body,
 p {
     margin: 0;
     padding: 0;
@@ -10,9 +9,10 @@ p {
 .body {
     font-family: "Quicksand", sans-serif;
     font-optical-sizing: auto;
-    font-weight: <weight>;
     font-style: normal;
     --second-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -51,16 +51,15 @@ ul {
     font-size: 24px;
     color: #fff;
     text-transform: uppercase;
-}
+    font-family: "Inter", sans-serif}
 
-.active {
-    color: #f4de1f;
+.header-link:hover{
+    color: #F4DE1F;
 }
 
 /* Section-hero */
 .hero {
     background-color: #0C70AC;
-    border-bottom: 1px solid #fff;
 }
 
 .hero-container {
@@ -75,7 +74,7 @@ ul {
     font-size: 64px;
     text-transform: capitalize;
     color: #fff;
-    padding-bottom: 34px;
+    padding-bottom: 20px;
 }
 
 .hero-text {
@@ -132,7 +131,6 @@ ul {
     font-weight: 500;
     font-size: 24px;
     text-decoration: underline;
-    text-decoration-skip-ink: none;
     color: #7c7c7c;
     text-transform: uppercase;
 }
@@ -153,6 +151,7 @@ ul {
 
 .blog-list {
     display: flex;
+    gap: 30px;
 }
 
 .blog-item {
@@ -160,22 +159,27 @@ ul {
     border-radius: 15px;
 }
 
+.blog-wrap {
+    background: #fff;
+    border-radius: 15px;
+    padding: 25px 40px 50px;
+}
+
 .blog-text-date {
-    padding: 25px 0 25px 40px;
+    padding-bottom: 25px;
     font-weight: 600;
     font-size: 16px;
     color: #7c7c7c;
 }
 
 .blog-caption {
-    padding: 0 40px 20px;
+    padding-bottom: 20px;
     font-weight: 600;
     font-size: 24px;
     color: #000;
 }
 
 .blog-text {
-    padding: 0 40px 50px;
     font-weight: 600;
     font-size: 20px;
     color: #7c7c7c;
@@ -215,8 +219,8 @@ ul {
     width: 173px;
 }
 
-.footer-item {
-    padding-bottom: 50px;
+.footer-item-two {
+    padding-bottom: 25px;
 }
 
 .footer-link {
@@ -230,6 +234,7 @@ ul {
 .footer-privacy-policy {
     border-top: 1px solid #fff;
     padding: 63px 0;
+    margin-top: 80px;
 }
 
 .footer-text {
